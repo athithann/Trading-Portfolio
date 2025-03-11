@@ -1,0 +1,28 @@
+@media screen and (min-width: 280px) and (max-width: 768px) {
+  
+  /* .dashboard-section {
+    height: calc(100vh - 4rem);
+    width: 100vw;
+  }
+  
+  .dashboard-section .grid {
+    height: calc(100vh - 9rem);
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  .dashboard-section .grid .column__one {
+    height: 14rem;
+    gap: 1rem;
+  }
+  
+  .dashboard-section .grid .column__two {
+    height: calc(100vh - 23rem);
+  } */
+} 
+
+@media screen and (min-width: 280px) and (max-width: 860px) {
+  .dashboard-section .grid .column__one {
+    height: auto;
+  }
+}

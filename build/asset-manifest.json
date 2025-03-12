@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Trading-Portfolio/static/css/main.b40c31c8.css",
+    "main.js": "/Trading-Portfolio/static/js/main.7740167b.js",
+    "index.html": "/Trading-Portfolio/index.html",
+    "main.b40c31c8.css.map": "/Trading-Portfolio/static/css/main.b40c31c8.css.map",
+    "main.7740167b.js.map": "/Trading-Portfolio/static/js/main.7740167b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b40c31c8.css",
+    "static/js/main.7740167b.js"
+  ]
+}

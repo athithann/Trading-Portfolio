@@ -9,7 +9,7 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Routes>
-        <Route path="/profile/athithan" element={<App profile='athithan' />} />
+        <Route path="/" element={<App profile='athithan' />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>,

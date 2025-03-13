@@ -12,7 +12,7 @@ export default function App(prop) {
   useEffect(() => {
     (async () => {
       try {
-        const response = await fetch('/metrics.json');
+        const response = await fetch(`${process.env.PUBLIC_URL}/metrics.json?t=${new Date().getTime()}`);
         const data = await response.json();
         let formattedData = JSON.parse(JSON.stringify(data).replaceAll("'nan'", 'nan').replaceAll("'", '"').replaceAll('nan', '"nan"'));
         setPosts(formattedData);
@@ -26,7 +26,7 @@ export default function App(prop) {
     if (val !== "ALL") {
       (async () => {
         try {
-          const response = await fetch(`/${val}_Chart.json`);
+          const response = await fetch(`${process.env.PUBLIC_URL}/${val}_Chart.json?t=${new Date().getTime()}`);
           let data = await response.json();
           let formattedData = JSON.parse(JSON.stringify(data).replaceAll("'nan'", 'nan').replaceAll("'", '"').replaceAll('nan', '"nan"'));
           setReturnsData(formattedData);
